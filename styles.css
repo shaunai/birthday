@@ -77,3 +77,10 @@ p3 {
   -webkit-user-select: none;
   user-select: none;
 }
+/* Media queries */
+@media screen and (max-width: 768px) {
+  img {
+    max-width: 100%;
+    border-radius: 50%; /* Membuat border bulat */
+  }
+}
