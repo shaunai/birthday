@@ -77,10 +77,27 @@ p3 {
   -webkit-user-select: none;
   user-select: none;
 }
-/* Media queries */
+/* Tablet (<= 768px) */
 @media screen and (max-width: 768px) {
   img {
     max-width: 100%;
     border-radius: 50%; /* Membuat border bulat */
+  }
+}
+
+/* Ponsel (<= 480px) */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+  h1 span {
+    font-size: 1.5em;
+  }
+  p,
+  p1 {
+    font-size: 1em;
+  }
+  p3 {
+    font-size: 0.8em;
   }
 }
